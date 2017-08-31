@@ -1,5 +1,8 @@
 .DS_Store
+
+# Ignore constants
 .env
+constants.py
 
 # data stored to the local disk
 2016/

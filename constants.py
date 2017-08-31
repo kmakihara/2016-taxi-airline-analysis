@@ -26,3 +26,5 @@ JFK_COORDINATES = {
     'terminal_7': [40.648798, -73.782922],
     'terminal_8': [40.646934, -73.789874]
 }
+
+PROJECT_ID = 'taxianalysis-176617'

@@ -4,12 +4,12 @@ import shapefile
 
 from google.cloud import bigquery
 from pyproj import Proj, transform
-from constants import NEWARK_ID, LAGUARDIA_ID, JFK_ID
+from constants import NEWARK_ID, LAGUARDIA_ID, JFK_ID, PROJECT_ID
 
 def main():
 
     # Instantiates a client
-    bigquery_client = bigquery.Client(project="taxianalysis-176617")
+    bigquery_client = bigquery.Client(project=PROJECT_ID)
 
     # Import shapefile containing TLC taxi zones
     sf = shapefile.Reader("taxi_zones/taxi_zones")
